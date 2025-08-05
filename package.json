@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "seed":"node prisma/seed.js",
-    "promote":"node prisma/promote.js",
+    "seed": "node prisma/seed.js",
+    "promote": "node prisma/promote.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -20,9 +20,11 @@
     "@prisma/client": "^6.13.0",
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "multer": "^2.0.2"
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.5"
   }
 }
